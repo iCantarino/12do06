@@ -1,0 +1,105 @@
+body {
+    background: rgb(113, 181, 224);
+    margin: 0;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #ffffff 0%, #ebebeb 50%, #dbdbdb 50%, #b5b5b5);
+    border-radius: 10px;
+    border:  1px solid #949494;
+    box-shadow: 
+        0px 1px 3px rgba(000, 000, 000, 0.5),
+        inset 0px 0px 2px rgba(255, 255, 255, 1);
+    text-shadow: 
+        0px -1px 0px rgba(000, 000, 000, 0.2),
+        0px 1px 0px rgba(255, 255, 255, 1);
+}
+button:hover {
+    background: linear-gradient(to top, #ffffff, 0%, #ebebeb 50%, #dbdbdb 50%, #b5b5b5);
+}
+button:disabled {
+    background: #b5b2b2;
+    color: #cbcbcb;
+}
+
+#jogo {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+#titulo {
+    text-align: center;
+    margin: 40px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 40px; text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff,
+                 0 0 15px #fff, 0 0 20px #0600a7,
+                 0 0 35px #0600a7, 0 0 40px #0600a7,
+                 0 0 50px #0600a7, 0 0 75px #0600a7;
+}
+#tabeladiv {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#forca img {
+    width: 55%;
+    height: 55%;
+    float: right;
+}
+#tema {
+    text-align: center;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 20px; text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff,
+                 0 0 15px #fff, 0 0 20px #0600a7,
+                 0 0 35px #0600a7, 0 0 40px #0600a7,
+                 0 0 50px #0600a7, 0 0 75px #0600a7;
+}
+#tentativa {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+#tenta {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+}
+input {
+    margin-left: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+}
+#acerto {
+    text-align: left;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 20px; text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0 0 5px #0600a7, 0 0 10px #0600a7,
+                 0 0 15px #0600a7, 0 0 20px #fff,
+                 0 0 35px #fff, 0 0 40px #fff,
+                 0 0 50px #fff, 0 0 75px #fff;
+}
+#palcerta {
+    text-align: left;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 16px; text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0 0 5px #0600a7, 0 0 10px #fff;
+}
+#tabAcerto {
+    width: 30%;
+}
+

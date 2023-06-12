@@ -1,0 +1,72 @@
+body{
+    background-color: #006969;
+}
+#jogo{
+    width: 603px;
+    height: 603px;
+    border: solid 3px;
+    display: inline-block;
+    float: left;
+    background-color: white;
+}
+#resultado{
+    margin-left: 30px;
+    float: left;
+}
+#resposta{
+    font-size: 30;
+    font-style: italic;
+    font-weight: bold;
+    color: #f5ff00;
+}
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.xis{
+    font-family: 'Courier New', monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.bola{
+    font-family: 'Courier New', monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.velha{
+    font-family: 'Courier New', monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #3D94F6;
+    background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background: #1E62D0;
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    text-decoration: none;
+}
+
